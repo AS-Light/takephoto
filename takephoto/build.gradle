@@ -23,7 +23,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.soundcloud.android.crop:lib_crop:1.0.0'
-    implementation project(':multipleimageselect')
     implementation 'me.shaohui.advancedluban:library:1.3.2'
+    implementation 'com.github.AS-Light:multipleimageselect:1.0.1'
 }
 //apply from: "bintrayUpload.gradle"
